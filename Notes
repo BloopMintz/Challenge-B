@@ -1,0 +1,67 @@
+live_loop :DSS do
+  12.times do
+    sample :drum_snare_soft
+    sleep 2
+  end
+  stop
+end
+
+live_loop :DHK do
+  16.times do
+    sample :drum_heavy_kick
+    sleep 1
+  end
+  stop
+end
+
+live_loop :DCC do
+  16.times do
+    sample :drum_cymbal_closed
+    sleep 0.5
+  end
+  stop
+end
+
+sleep 24
+
+live_loop :DTT do
+  4.times do
+    sample :drum_splash_hard
+    sleep 2
+  end
+  stop
+end
+
+live_loop :DTA do
+  16.times do
+    sample :drum_cymbal_hard
+    sleep 0.5
+  end
+  stop
+end
+
+sleep 8
+
+live_loop :DSS2 do
+  4.times do
+    sample :drum_snare_soft
+    sleep 2
+  end
+  stop
+end
+
+live_loop :DHK2 do
+  8.times do
+    sample :drum_heavy_kick
+    sleep 1
+  end
+  stop
+end
+
+live_loop :DCC2 do
+  16.times do
+    sample :drum_cymbal_closed
+    sleep 0.5
+  end
+  stop
+end
